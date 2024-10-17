@@ -1,0 +1,96 @@
+* {
+    font-family: 'Mazzard H', sans-serif, Arial !important;
+}
+
+.flex-row-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-space-beetween{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-white {
+    color: white;
+}
+
+.fontWeight-300 {
+    font-weight: 300;
+}
+
+.fontSize-40 {
+    font-size: 40px;
+}
+
+.margin-none{
+    margin: 0;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.flexWrap-wrap{
+    flex-wrap: wrap;
+}
+
+.background-grey {
+    background-color: var(--background-grey);
+}
+
+.background-blue-dark {
+    background-color: var(--background-blue-dark);
+}
+
+.size-200 {
+    width: 200px;
+    height: 200px;
+    
+}
+.size-400 {
+    width: 400px;
+    height: 400px;
+    transition: width 1.5s ease, height 1.5s ease;
+}
+
+.fontSize-60{
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.opacity-0-5{
+    opacity: 0.5;
+}
+
+.border-opacity-white {
+   border: 2px solid #ffffff99
+}
+
+.padding-none {
+    padding: 0;
+}
+
+.display-none {
+    display: none;
+}
+

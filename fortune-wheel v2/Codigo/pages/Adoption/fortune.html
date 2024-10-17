@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../../styles/global.css" />
+    <link rel="stylesheet" href="../../styles/variables.css" />
+    <link rel="stylesheet" href="../../pages/common.css" />
+    <link rel="stylesheet" href="../../pages/fortune.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lifecycle Game</title>
+  </head>
+  <body>
+    <h1 id="titlePage">Adoption</h1>
+    <div class="container">
+      <div id="picker"></div>
+      <canvas id="wheelCanvas" width="700" height="700"></canvas>
+
+      <a class="flex-row-center" id="spinButton">Wings</a>
+    </div>
+
+    <div id="modal" class="modal">
+      <div class="modal-container">
+        <h3 class="modal-title"></h2>
+        <h3 class="modal-option"></h2>
+        <a id="closeModal" href="#" class="modal-close">Close</a>
+      </div>
+    </div>
+
+    <div class="flex-space-beetween bottons">
+      <a id="previousButton" href="../Adoption/index.html">
+        <img
+          src="../../static/images/back.svg"
+          alt="left arrow"
+          class="leftArrow"
+        />
+      </a>
+
+      <a id="nextButton" href="../Growth/index.html">
+        <img
+          src="../../static/images/next.svg"
+          alt="right arrow"
+          class="rightArrow"
+        />
+      </a>
+    </div>
+
+    <script src="fortune-wheel.js"></script>
+
+  </body>
+</html>

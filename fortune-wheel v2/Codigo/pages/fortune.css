@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--background-options);
+} 
+#titlePage{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    color: white;
+    
+}
+
+#picker {
+    z-index: 1;
+    position: absolute;
+    border-left: 22px solid transparent;
+    border-right: 22px solid transparent;
+    border-top: 35px solid rgb(255, 255, 255);
+    border-radius: 10%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.container{
+    position: relative;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#spinButton{
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#spinButton:hover{
+    cursor: pointer;
+    scale: 1.1;
+    transition: scale 0.3s ease;
+}
+

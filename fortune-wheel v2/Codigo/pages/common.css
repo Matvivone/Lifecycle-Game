@@ -1,0 +1,91 @@
+body {
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--background-options);
+    gap: 1rem;
+}
+
+span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.bottons {
+    position: absolute;
+    width: 50vw;
+    bottom: 40px;
+}
+
+.rightArrow,
+.leftArrow {
+    width: 15px;
+}
+
+.rightArrow:hover,
+.leftArrow:hover {
+    cursor: pointer;
+    scale: 2;
+    transition: scale 0.2s ease;
+}
+
+.modal {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+    scale: 0.8;
+}
+
+.modal-show {
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+    background-color: #111111bd;
+    scale: 1;
+    transition: scale 0.3s ease;
+}
+
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    align-items: center;
+    margin: auto;
+    width: 20%;
+    background-color: white;
+    border-radius: 4%;
+    height: 30%;
+
+}
+
+.modal-title {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.modal-option {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.modal-close {
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--background-options);
+    padding: 1em 3em;
+    border: 1px solid;
+    border-radius: 6px;
+    font-weight: 300;
+    transition: background-color .2s;
+}
+
+.modal-close:hover {
+    color: #F26250;
+    background-color: #fff;
+}
+
